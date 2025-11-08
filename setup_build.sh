@@ -16,7 +16,6 @@ $HOME/Documents/CuBoulder/AESD/Final/meta-openembedded/meta-oe \\
 $HOME/Documents/CuBoulder/AESD/Final/meta-openembedded/meta-python \\
 $HOME/Documents/CuBoulder/AESD/Final/meta-openembedded/meta-networking \\
 $HOME/Documents/CuBoulder/AESD/Final/meta-raspberrypi \\
-$HOME/Documents/CuBoulder/AESD/Final/meta-wifi \\
   "
 EOL
 
