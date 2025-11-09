@@ -89,4 +89,4 @@ KERNEL_MODULE_AUTOLOAD:append = " brcmfmac cfg80211"
 EOL
 
 echo "Configuration updated. Building image..."
-bitbake core-image-base
+bitbake core-image-minimal
