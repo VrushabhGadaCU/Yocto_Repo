@@ -1,0 +1,10 @@
+[Match]
+Name=eth0
+
+[Network]
+DHCP=yes
+RouteMetric=200
+
+[DHCP]
+RouteMetric=200
+UseDNS=yes

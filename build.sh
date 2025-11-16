@@ -104,7 +104,7 @@ append_config '' "$CONF_FILE"
 # Image Features and Packages
 append_config '# === IMAGE CONFIGURATION ===' "$CONF_FILE"
 append_config 'IMAGE_FEATURES += "ssh-server-openssh"' "$CONF_FILE"
-append_config 'IMAGE_INSTALL:append = " linux-firmware-rpidistro-bcm43455 linux-firmware-bcm43430 wpa-supplicant wpa-supplicant-cli wpa-supplicant-passphrase dhcpcd iw iproute2 kernel-modules kernel-image kernel-devicetree packagegroup-base"' "$CONF_FILE"
+append_config 'IMAGE_INSTALL:append = " linux-firmware-rpidistro-bcm43455 linux-firmware-bcm43430 wpa-supplicant wpa-supplicant-cli wpa-supplicant-passphrase dhcpcd iw iproute2 kernel-modules kernel-image kernel-devicetree packagegroup-base wpa-supplicant-config network-setup"' "$CONF_FILE"
 append_config '' "$CONF_FILE"
 
 # Image Sizing (allow for growth during updates)
